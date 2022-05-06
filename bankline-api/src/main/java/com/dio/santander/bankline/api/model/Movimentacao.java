@@ -26,6 +26,55 @@ public class Movimentacao {
 	private Timestamp					dataHora;
 	private String						descricao;
 	private BigDecimal					valor;
+
 	@Enumerated
 	private MovimentacaoTipoEnum		tipo;
+
+	public BigDecimal getId() {
+		return id;
+	}
+
+	public void setId(BigDecimal id) {
+		this.id = id;
+	}
+
+	public Timestamp getDataHora() {
+		return dataHora;
+	}
+
+	public void setDataHora(Timestamp dataHora) {
+		this.dataHora = dataHora;
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+	public BigDecimal getValor() {
+		return valor;
+	}
+
+	public void setValor(BigDecimal valor) {
+		this.valor = valor;
+	}
+
+	public MovimentacaoTipoEnum getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(MovimentacaoTipoEnum tipo) {
+		this.tipo = tipo;
+	}
+
+	@Override
+	public String toString() {
+		return "Movimentacao [dataHora=" + dataHora + ", descricao=" + descricao + ", id=" + id + ", tipo=" + tipo
+				+ ", valor=" + valor + "]";
+	}
+
+	
 }

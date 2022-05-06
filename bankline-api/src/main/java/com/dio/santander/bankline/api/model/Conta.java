@@ -18,4 +18,23 @@ public class Conta {
 	private BigDecimal					numero;
 	@Column(name = "conta_saldo")
 	private BigDecimal					saldo;
+	
+	public BigDecimal getNumero() {
+		return numero;
+	}
+	public void setNumero(BigDecimal numero) {
+		this.numero = numero;
+	}
+	public BigDecimal getSaldo() {
+		return saldo;
+	}
+	public void setSaldo(BigDecimal saldo) {
+		this.saldo = saldo;
+	}
+	
+	@Override
+	public String toString() {
+		return "Conta [numero=" + numero + ", saldo=" + saldo + "]";
+	}
 }
+

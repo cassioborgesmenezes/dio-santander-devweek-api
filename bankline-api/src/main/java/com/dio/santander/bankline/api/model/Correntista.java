@@ -30,4 +30,42 @@ public class Correntista {
 
 	@Embedded
 	private Conta						conta;
+
+	public BigDecimal getId() {
+		return id;
+	}
+
+	public void setId(BigDecimal id) {
+		this.id = id;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Conta getConta() {
+		return conta;
+	}
+
+	public void setConta(Conta conta) {
+		this.conta = conta;
+	}
+
+	@Override
+	public String toString() {
+		return "Correntista [conta=" + conta + ", cpf=" + cpf + ", id=" + id + ", nome=" + nome + "]";
+	}
+	
 }
