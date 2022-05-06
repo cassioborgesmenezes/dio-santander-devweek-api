@@ -12,7 +12,7 @@
 	<artifactId>bankline-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bankline-api</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Demo project for DIA Santander Devweek</description>
 	<properties>
 		<java.version>8</java.version>
 	</properties>

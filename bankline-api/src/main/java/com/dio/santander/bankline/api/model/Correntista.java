@@ -1,4 +1,4 @@
-package com.dio.santander.banklineapimodel;
+package com.dio.santander.bankline.api.model;
 
 import java.math.BigDecimal;
 
